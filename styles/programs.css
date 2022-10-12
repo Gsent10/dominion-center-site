@@ -1,0 +1,29 @@
+.programs {
+    padding: 3rem;
+    text-align: center;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.events .top {
+    display: flex;
+    gap: 3rem;
+}
+
+.events .bottom {
+    display: flex;
+    gap: 3rem;
+}
+
+@media(max-width: 1100px) {
+    .programs {
+        height: auto;
+        margin-bottom: 5rem;
+    }
+}

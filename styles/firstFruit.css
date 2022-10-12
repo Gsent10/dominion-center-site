@@ -1,0 +1,27 @@
+.firstFruit {
+    height: 60vh;
+    background-image: url("/img/giving.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.firstFruit p {
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+@media(max-width: 1100px) {
+    .firstFruit {
+        height: auto;
+        margin-bottom: 5rem;
+    }
+}
